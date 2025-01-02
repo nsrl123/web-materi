@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar container */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #02b408;
+    padding: 10px 20px;
+    color: white;
+}
+
+/* Logo */
+.navbar .logo {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+/* Navbar menu */
+.navbar .menu {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar .menu li {
+    position: relative;
+    margin-left: 20px;
+}
+
+.navbar .menu a {
+    text-decoration: none;
+    color: white;
+    padding: 8px 12px;
+    display: block;
+    transition: background-color 0.3s;
+}
+
+.navbar .menu a:hover {
+    background-color: #575757;
+}
+
+.navbar .menu li .dropdown {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #02b408;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    min-width: 150px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+.navbar .menu li .dropdown li {
+    margin: 0;
+}
+
+.navbar .menu li .dropdown a {
+    padding: 10px;
+    color: white;
+    white-space: nowrap;
+}
+
+.navbar .menu li:hover .dropdown {
+    display: block;
+}
+.selamat {
+    background-color: #02b408;
+}
