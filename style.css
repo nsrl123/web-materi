@@ -4,7 +4,7 @@ body {
   background-color: #ffffff;
 }
 
-/* Navbar container */
+
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -17,7 +17,7 @@ body {
 .materi {
   margin: 6vh;
 }
-/* Logo */
+
 .navbar .logo {
   font-size: 20px;
   font-weight: bold;
@@ -27,14 +27,14 @@ body {
 .logo img {
   height: 50px;
   border-radius: 5px;
-  transition: transform 0.3s ease, color 0.3s ease; /* untuk hover bawahnya*/
+  transition: transform 0.3s ease, color 0.3s ease;
 }
 
 .logo img:hover {
-  transform: scale(1.2); /* Zoom teks */
-  color: #140202; /* Ubah warna saat hover */
+  transform: scale(1.2);
+  color: #140202;
 }
-/* Navbar menu */
+
 .navbar .menu {
   display: flex;
   list-style: none;
@@ -89,16 +89,16 @@ body {
 .selamat {
   background-color: #02b408;
 }
-/* Welcome Section Styles */
+
 .welcome-section {
   display: flex;
-  justify-content: center; /* Memusatkan konten secara horizontal */
-  align-items: center; /* Memusatkan konten secara vertikal */
+  justify-content: center;
+  align-items: center;
   padding: 50px 20px;
-  gap: 20px; /* Menambah jarak antar elemen dalam welcome-section */
+  gap: 20px;
   background-color: #0061ff;
-  border-bottom-left-radius: 75px; /* Radius sudut kiri bawah */
-  border-bottom-right-radius: 75px; /* Radius sudut kanan bawah */
+  border-bottom-left-radius: 75px;
+  border-bottom-right-radius: 75px;
 }
 
 .welcome-section h1 {
@@ -114,30 +114,30 @@ body {
   color: #ffffff;
 }
 
-/* judul card */
+
 .judul-materi {
-  text-align: center; /* Teks berada di tengah */
-  padding: 30px 20px; /* Ruang di atas dan bawah */
-  background-color: #ffffff; /* Warna latar belakang yang lembut */
-  margin-bottom: 20px; /* Memberikan jarak di bawah judul */
-  border-radius: 10px; /* Sudut melengkung */
-  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); Efek bayangan */
+  text-align: center;
+  padding: 30px 20px;
+  background-color: #ffffff;
+  margin-bottom: 20px;
+  border-radius: 10px;
+ 
 }
 
 .judul-materi h1 {
-  color: #333; /* Warna teks yang lebih gelap */
-  font-size: 36px; /* Ukuran font lebih besar */
-  font-weight: bold; /* Menonjolkan teks */
-  margin: 0; /* Menghilangkan margin default */
-  line-height: 1.5; /* Memberikan jarak antar baris */
+  color: #333;
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0;
+  line-height: 1.5;
 }
-/* card */
+
 
 .container {
   display: flex;
   justify-content: space-between;
-  gap: 20px; /* Jarak antar kartu */
-  padding: 20px; /* Memberikan padding di sekitar kontainer */
+  gap: 20px;
+  padding: 20px;
   flex-wrap: wrap;
 }
 .card {
@@ -155,21 +155,21 @@ body {
 .card:hover {
   transform: translateY(-5px);
   text-decoration: none;
-  background-color: #007bff; /* Warna biru */
-  color: white; /* Mengubah teks jadi putih */
+  background-color: #007bff;
+  color: white;
 }
 
 .card:hover h3 {
-  color: white; /* Mengubah warna judul jadi putih */
+  color: white;
 }
 
 .card:hover p {
-  color: #f1f1f1; /* Mengubah warna paragraf jadi abu terang */
+  color: #f1f1f1;
 }
 
 .card:hover .badge {
-  background-color: white; /* Mengubah badge jadi putih */
-  color: #007bff; /* Teks badge jadi biru */
+  background-color: white;
+  color: #007bff;
 }
 
 .card h3 {
@@ -195,13 +195,13 @@ body {
   margin-top: 10px;
 }
 
-/* Footer bawah */
+
 .footer {
-  background-color: #0061ff; /* Warna latar belakang */
-  color: #ffffff; /* Warna teks */
-  padding: 40px 20px; /* Ruang di dalam footer */
-  border-top-left-radius: 40px; /* Lengkungan sudut kiri atas */
-  border-top-right-radius: 40px; /* Lengkungan sudut kanan atas */
+  background-color: #0061ff;
+  color: #ffffff;
+  padding: 40px 20px;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
   text-align: left;
   font-family: Arial, sans-serif;
 }
@@ -209,13 +209,13 @@ body {
 .footer-container {
   display: flex;
   justify-content: space-between;
-  flex-wrap: wrap; /* Responsif untuk layar kecil */
-  gap: 20px; /* Jarak antar kolom */
+  flex-wrap: wrap;
+  gap: 20px;
 }
 
 .footer-column {
-  flex: 1; /* Kolom fleksibel */
-  min-width: 250px; /* Lebar minimum setiap kolom */
+  flex: 1;
+  min-width: 250px;
 }
 
 .footer-column h3 {
@@ -235,25 +235,25 @@ body {
 }
 
 .footer-column ul li a {
-  color: #cccccc; /* Warna tautan */
-  text-decoration: none; /* Hilangkan garis bawah */
+  color: #cccccc;
+  text-decoration: none;
   font-size: 14px;
 }
 
 .footer-column ul li a:hover {
-  color: #ffffff; /* Warna tautan saat dihover */
-  text-decoration: underline; /* Garis bawah saat dihover */
+  color: #ffffff;
+  text-decoration: underline;
 }
 
 .footer-logo {
-  max-width: 150px; /* Ukuran maksimum logo */
-  margin-bottom: 15px; /* Jarak bawah logo */
+  max-width: 150px;
+  margin-bottom: 15px;
 }
 
 .footer-bottom {
   text-align: center;
   margin-top: 20px;
-  border-top: 1px solid #cccccc; /* Garis pemisah */
+  border-top: 1px solid #cccccc;
   padding-top: 20px;
   font-size: 14px;
   color: #cccccc;
