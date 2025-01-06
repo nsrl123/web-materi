@@ -91,13 +91,6 @@ body {
     background-color: #02b408;
 }
 /* Welcome Section Styles */
-.welcome-image {
-    max-width: 300px; /* Menentukan ukuran maksimum */
-    height: auto; /* Menjaga rasio aspek */
-    margin-left: 20px; /* Memberikan jarak antara teks dan gambar */
-    border-radius: 10px; /* Membuat sudut gambar melengkung */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Menambahkan efek bayangan */
-}
 .welcome-section {
     display: flex;
     justify-content: center; /* Memusatkan konten secara horizontal */
