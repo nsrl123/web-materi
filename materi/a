@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>materi</title>
+    <link rel="icon" type="image/x-icon" href="images.png">
+    <link rel="stylesheet" href="style.css">
+</head> 
+<body>
+    <!-- navbar -->
+    <nav class="navbar">
+        <!-- Logo -->
+         <div class="logo">
+             <img src="images.png" alt="">
+         </div>
+
+         <ul>
+            <li></li>
+         </ul>
+        <!-- Navbar menu -->
+        <ul class="menu">
+            <li><a href="#">Home</a></li>
+            <li>
+                <a href="#">materi &#9662;</a>
+                <!-- Dropdown menu -->
+                <ul class="dropdown">
+                    <li><a href="#">materi 1</a></li>
+                    <li><a href="#">materi 2</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">Informasi &#9662;</a>
+                <!-- Dropdown menu -->
+                <ul class="dropdown">
+                    <li><a href="index.html">About me</a></li>
+                    <li><a href="#">visi & misi</a></li>
+                    <li><a href="#">mungkin</a></li>
+                    <li><a href="#">Digital Marketing</a></li>
+                    <li><a href="#">Digital Marketing</a></li>
+                    <li><a href="#">Digital Marketing</a></li>
+                    <li><a href="#">Digital Marketing</a></li>
+                    <li><a href="#">Digital Marketing</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#"> saya &#9662;</a>
+                <!-- Dropdown menu -->
+                <ul class="dropdown">
+                    <li><a href="index.html">About me</a></li>
+                    <li><a href="#">SEO</a></li>
+                    <li><a href="#">Digital Marketing</a></li>
+                    <li><a href="#">Digital Marketing</a></li>
+                    <li><a href="#">Digital Marketing</a></li>
+                    <li><a href="#">Digital Marketing</a></li>
+                    <li><a href="#">Digital Marketing</a></li>
+                    <li><a href="#">Digital Marketing</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+</body>
+</html>
